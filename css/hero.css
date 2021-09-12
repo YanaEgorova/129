@@ -1,0 +1,19 @@
+.hero  {
+  padding: 15rem 0;
+  text-align: center;
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding: 20rem 0;
+    display: flex;
+    text-align: left;
+    align-items: center;
+  }
+  .hero .btn {
+    margin-left: 0;
+  }
+  .hero .img {
+    margin: 0 5rem 0 0;
+  }
+}

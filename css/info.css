@@ -1,0 +1,27 @@
+.info__wrapper {
+}
+.info {
+  padding: 15rem 0;
+  text-align: center;
+}
+.info .item:not(:last-child) {
+  margin-bottom: 10rem;
+}
+.info .item  {
+  position: relative;
+  padding-bottom: 10rem;
+}
+.info .item:after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 60%;
+  height: 0.3rem;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  background-color: var(--main-text-color);
+}
+@media screen and (min-width: 1024px) {
+ 
+}

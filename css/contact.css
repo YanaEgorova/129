@@ -1,0 +1,15 @@
+.contact__wrapper {
+}
+.contacts-pd {
+    padding: 10rem 0;
+}
+.contacts-pd .text {
+    margin-left: 0;
+    max-width: 100%;
+}
+.contact__link-box {
+    margin-bottom: 2rem;
+}
+.contact__link {
+    display: block;
+}

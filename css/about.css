@@ -1,0 +1,13 @@
+.about__wrapper {
+    background-color: var(--main-text-color);
+}
+.about {
+    text-align: center;
+    padding: 15rem 0;
+}
+.about .sub-title, .about .text {
+    color: var(--sub-bg-color);
+} 
+.about .img {
+    margin-bottom: 5rem;
+}
